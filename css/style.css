@@ -66,30 +66,43 @@ i {
   }
 }
 
+.card {
+    width: 33%;
+}
+.container {
+    padding: 2px 16px;
+}
+
 .dark {
   background: #eee;
 }
 
-section#about {
+section#members, section#about {
   width: 100%;
   padding: 6rem 0 10rem;
   margin: 0 auto;
   text-align: center;
   display: flow-root;
 }
-section#about h1 {
+section#members h1, section#about h1 {
   font-weight: 400;
 
 }
 
-section#about p {
+section#members p, section#about p {
   font-family: Montserrat;
   font-weight: 100;
   font-size: 18px;
   width: 60%;
   margin: 0 auto;
   padding-bottom: 1em;
-  text-align: left;
+  text-align: center;
+}
+
+#members img {
+  width:30%; 
+  height: auto;
+  border-radius: 8px;
 }
 
 div.text h2 {
