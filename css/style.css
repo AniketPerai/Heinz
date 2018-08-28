@@ -30,14 +30,44 @@ h1.doof {
   animation-fill-mode: forwards;
 }*/
 
+div.intro--inside img{
+  animation: chainReaction 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+div.intro--inside h1{
+  animation: chainReaction 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+div.text h2{
+  animation: chainReaction 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+div.arrow a{
+  animation: chainReaction 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+
+
 section#about div.main div.introducing h1 {
-  animation: chainReaction 4s;
+  animation: chainReaction 4.5s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
 
 section#about div.main div.introducing h1 span {
-  animation-delay: .3s;
+  animation-delay: .5s;
 }
 
 section#about div.main div.introducing h1 {
