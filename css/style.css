@@ -66,6 +66,23 @@ i {
   }
 }
 
+.wrapper {
+  width:100%;
+  clear:both;
+}
+.first {
+  width:32%;
+  float:left;
+}
+.second {
+  width:32%;
+  float:left;
+}
+.third {
+  width:32%;
+  float:left;
+}
+
 .card {
     width: 33%;
 }
