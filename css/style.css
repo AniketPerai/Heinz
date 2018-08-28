@@ -1,13 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:200,300,600');
 body {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   width: 100%;
   height: 100vh;
-  margin-left: 0;
-  margin-right: 0;
-  margin: none;
-  padding: 0;
+  margin: 0;
 }
 
 #particles-js {
@@ -21,6 +18,10 @@ body {
   background-repeat: no-repeat; 
   background-position: 50% 50%;
   z-index: -100;
+}
+
+h1.doof {
+  font-family: Lato;
 }
 
 
@@ -79,19 +80,35 @@ i {
 
 section#members, section#about {
   width: 100%;
-  padding: 6rem 0 10rem;
+  padding: 3rem 0 10rem;
+  height: auto;
   margin: 0 auto;
   text-align: center;
   display: flow-root;
 }
+
+section#about div.main{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flow-root;
+}
+<<<<<<< HEAD
 section#members h1, section#about h1 {
+=======
+section#about div.main h1 {
+>>>>>>> e0bddd446f8364d3618d344892097df97e0f24ee
   font-weight: 400;
 
 }
 
+<<<<<<< HEAD
 section#members p, section#about p {
+=======
+section#about div.main p {
+>>>>>>> e0bddd446f8364d3618d344892097df97e0f24ee
   font-family: Montserrat;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 18px;
   width: 60%;
   margin: 0 auto;
@@ -103,6 +120,22 @@ section#members p, section#about p {
   width:30%; 
   height: auto;
   border-radius: 8px;
+}
+
+div.introducing {
+  width: 100%;
+  text-align: left;
+}
+
+div.introducing h1 {
+  color: #3491d8;
+  padding-left: 2rem;
+}
+
+div.introducing h1 span {
+  font-family: Montserrat;
+  color: #a9a9a9;
+  font-weight: 400;
 }
 
 div.text h2 {
@@ -117,8 +150,6 @@ div.text h2 {
   z-index: 9999;
   text-align: center;
   line-height: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 .intro--inside{
@@ -152,6 +183,16 @@ p {
      -moz-transition: all 0.8s;
        -o-transition: all 0.8s;
           transition: all 0.8s;
+}
+
+footer {
+  background: #0e385d;
+  min-height: 3rem;
+  color: #fff;
+  font-weight: 300;
+  padding: 2rem 0;
+  line-height: 1.5rem;;
+  text-align: center;
 }
 
 div.text {
