@@ -3,10 +3,8 @@ body {
   color: #fff;
   width: 100%;
   height: 100vh;
-  bottom: 0px;
-  top: 0px;
-  left: 0;
-  background: #186cb6;
+  margin: none;
+  background: #0e385d;
 }
 
 #particles-js {
@@ -70,6 +68,14 @@ div.text {
 .btn:hover {
   color: #5CBDAA;
   border-color: #5CBDAA;
+}
+
+#particles-js {
+  background-color: #0e385d; 
+  background-image: url(&quot;&quot;); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 50% 50%;
 }
 @media only screen and (max-width: 1000px) {
   h1 {
