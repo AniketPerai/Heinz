@@ -77,6 +77,11 @@ div.text {
   background-repeat: no-repeat; 
   background-position: 50% 50%;
 }
+
+section{
+  height: 200px;
+}
+
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 70px;
