@@ -155,20 +155,7 @@ article,aside,footer,header,nav,section{
 	border-radius:2px;
 	line-height:2rem
 }
-#about{
-	height: 600px;
-	padding-top: 130px;
-	margin-right: 100px;
-	margin-left: 100px;
-	text-align: center;
-	align-items: center;
-	align-content: center;
-	-webkit-animation:fadein 2s;
-	-moz-animation:fadein 2s;
-	-ms-animation:fadein 2s;
-	-o-animation:fadein 2s;
-	animation:fadein 2s
-}
+
 .dropdown {
     display: inline-block;
 }
