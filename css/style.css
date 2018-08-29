@@ -117,7 +117,7 @@ i {
 
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 4% 0;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -169,7 +169,7 @@ i {
 
 section#about {
   width: 100%;
-  padding: 3rem 0 10rem;
+  padding: 3rem 0 4rem;
   height: auto;
   margin: 0 auto;
   text-align: center;
@@ -216,6 +216,17 @@ div.introducing h1 span {
 div.text h2 {
   text-align: center;
   font-weight: 100;
+}
+
+section#machine {
+  background-color: #478fc3; 
+  text-align: center;
+  height: auto;
+}
+
+section#machine img {
+  width: 100%;
+  height: auto;
 }
 
 section#members {
