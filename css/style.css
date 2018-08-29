@@ -183,7 +183,7 @@ section#about div.main{
   display: flow-root;
 }
 section#about div.main h1 {
-  font-weight: 400;
+  font-weight: 600;
 
 }
 
@@ -210,7 +210,7 @@ div.introducing h1 {
 div.introducing h1 span {
   font-family: Montserrat;
   color: #a9a9a9;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 div.text h2 {
@@ -239,7 +239,7 @@ section#members {
 }
 
 section#members h1 {
-  font-weight: 400;
+  font-weight: 600;
   color: #a9a9a9;
   padding-left: 12rem;
   text-align: left;
